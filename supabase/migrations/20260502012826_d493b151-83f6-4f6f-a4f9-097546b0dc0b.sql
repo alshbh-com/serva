@@ -3,4 +3,4 @@
 ALTER SEQUENCE public.orders_barcode_seq RESTART WITH 1;
 
 -- Update app name setting
-UPDATE public.app_settings SET value = '"TikExpress"'::jsonb WHERE key = 'app_name';
+UPDATE public.app_settings SET value = '"Serva"'::jsonb WHERE key = 'app_name';

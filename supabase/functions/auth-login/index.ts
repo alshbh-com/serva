@@ -6,14 +6,14 @@ const corsHeaders = {
 }
 
 function codeToEmail(code: string): string {
-  return code.replace(/@/g, '_at_').replace(/[^a-zA-Z0-9._-]/g, '_') + '@tikexpress.ship'
+  return code.replace(/@/g, '_at_').replace(/[^a-zA-Z0-9._-]/g, '_') + '@serva.ship'
 }
 
 function getLoginAttempts(password: string): Array<{ emailCode: string; password: string }> {
   const trimmed = String(password || '').trim()
   const attempts: Array<{ emailCode: string; password: string }> = [{ emailCode: trimmed, password: trimmed }]
 
-  if (trimmed === 'TiK EXPRESS01131030574') {
+  if (trimmed === 'Serva01131030574') {
     attempts.push({ emailCode: '01131030574', password: '01131030574' })
   }
 

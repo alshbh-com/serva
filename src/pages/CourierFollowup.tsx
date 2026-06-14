@@ -22,7 +22,7 @@ interface Order {
 }
 
 const DEFAULT_TEMPLATE = `السلام عليكم {customer_name} 🌷
-معاك متابعة شركة TikExpress بخصوص أوردر رقم {barcode}
+معاك متابعة شركة Serva بخصوص أوردر رقم {barcode}
 المنتج: {product_name}
 المبلغ المطلوب: {price} جنيه
 العنوان: {address}

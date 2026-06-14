@@ -36,9 +36,9 @@ export default function Login() {
         <CardContent className="pt-8 pb-6 px-6">
           {/* Logo */}
           <div className="text-center mb-8">
-            <img src={logo} alt="TikExpress" className="mx-auto h-24 w-24 rounded-2xl shadow-glow mb-4 object-cover" />
+            <img src={logo} alt="Serva" className="mx-auto h-24 w-24 rounded-2xl shadow-glow mb-4 object-cover" />
             <h1 className="text-3xl font-extrabold tracking-tight text-foreground">
-              TikExpress
+              Serva
             </h1>
             <p className="text-sm text-muted-foreground mt-1">نظام إدارة الشحن</p>
           </div>

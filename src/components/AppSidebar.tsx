@@ -84,9 +84,9 @@ export function AppSidebar() {
     <Sidebar side="right" collapsible="icon">
       <SidebarHeader className="p-4">
         <div className="flex items-center gap-2 group-data-[collapsible=icon]:justify-center">
-          <img src={logo} alt="TikExpress" className="h-9 w-9 shrink-0 rounded-xl object-cover" />
+          <img src={logo} alt="Serva" className="h-9 w-9 shrink-0 rounded-xl object-cover" />
           <span className="text-lg font-extrabold text-sidebar-foreground group-data-[collapsible=icon]:hidden tracking-wide">
-            TikExpress
+            Serva
           </span>
         </div>
       </SidebarHeader>
