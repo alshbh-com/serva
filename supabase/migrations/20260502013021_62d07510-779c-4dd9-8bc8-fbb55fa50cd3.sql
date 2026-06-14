@@ -1,0 +1,1 @@
+DELETE FROM public.orders WHERE barcode = '100000';

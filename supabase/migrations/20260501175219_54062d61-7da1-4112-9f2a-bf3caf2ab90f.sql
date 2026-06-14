@@ -1,0 +1,1 @@
+ALTER SEQUENCE public.order_barcode_seq RESTART WITH 1;
