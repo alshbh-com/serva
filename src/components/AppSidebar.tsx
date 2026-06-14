@@ -5,7 +5,8 @@ import {
   TrendingUp, Calendar, UserCheck, MessageSquare, Locate, FileSpreadsheet,
   CircleDot, Calculator, Contact, ClipboardList, Trash2, FileBarChart, Navigation2, BookOpen, Receipt, Lock
 } from 'lucide-react';
-import logo from '@/assets/logo.jpg';
+import logoAsset from '@/assets/serva-logo.png.asset.json';
+const logo = logoAsset.url;
 import { NavLink } from '@/components/NavLink';
 import { useAuth } from '@/contexts/AuthContext';
 import { usePermissions, urlToSectionKey } from '@/hooks/usePermissions';

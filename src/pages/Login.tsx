@@ -4,7 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { Lock, Loader2 } from 'lucide-react';
-import logo from '@/assets/logo.jpg';
+import logoAsset from '@/assets/serva-logo.png.asset.json';
+const logo = logoAsset.url;
 
 export default function Login() {
   const [password, setPassword] = useState('');
