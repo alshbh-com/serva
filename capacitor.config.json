@@ -1,0 +1,9 @@
+{
+  "appId": "app.lovable.64247ea8d24040df8e135238efdef10b",
+  "appName": "Serva",
+  "webDir": "dist",
+  "server": {
+    "url": "https://64247ea8-d240-40df-8e13-5238efdef10b.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  }
+}
